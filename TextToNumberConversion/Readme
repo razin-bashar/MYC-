@@ -1,0 +1,4 @@
+oprimized text to number conversion
+
+
+Oprimized Conversion can be char* to long long int* casting then convert that number to String
