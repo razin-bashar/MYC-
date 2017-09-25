@@ -1,0 +1,31 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Event_Handle, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class ThresholdReachedEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.DateTime TimeReached 'get set' : 
+    Int32 Threshold 'get set' : 
+  Methods:
+    get_Threshold(): PrivateScope, Public, HideBySig, SpecialName
+    set_Threshold(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_TimeReached(): PrivateScope, Public, HideBySig, SpecialName
+    set_TimeReached(DateTime): PrivateScope, Public, HideBySig, SpecialName
+Class Counter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Events:
+    System.EventHandler`1[ThresholdReachedEventArgs] ThresholdReached: SpecialName
+  Methods:
+    Add(Int32): PrivateScope, Public, HideBySig
+    add_ThresholdReached(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_ThresholdReached(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+Class SampleHandler: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    c_ThresholdReached(Object, ThresholdReachedEventArgs): PrivateScope, Public, Static, HideBySig
