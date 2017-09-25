@@ -1,0 +1,6 @@
+
+normal encryption: 13.9896 ms
+
+normal decryption: 19.2143 ms
+
+CRT    decryption: 14.4091 ms
