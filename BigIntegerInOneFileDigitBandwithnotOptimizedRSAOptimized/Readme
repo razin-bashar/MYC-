@@ -1,0 +1,4 @@
+Implementing RSA implementaton optimized
+thanks tom lib.
+But text to Digit Conversion is not Optimized but Oprimized Conversion can be char* to long long int* casting then convert that number to String
+Value got from RSA encryption the result is not optimized it can be done through convert "000"-"255"( which is 3 char ) in one byte (means 1 char).
