@@ -1,0 +1,81 @@
+# depslib dependency file v1.0
+1499671152 source:c:\users\acer\documents\pure c\bigintegerwith_c\main.c
+	<math.h>
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	<time.h>
+	"fft.h"
+	"bignum.h"
+	"mul.h"
+	"constant.h"
+	"sub.h"
+	"sum.h"
+	"karatsubaMul.h"
+	"slowdiv.h"
+	"addsub.h"
+
+1499601542 source:c:\users\acer\documents\pure c\bigintegerwith_c\bignum.c
+	<string.h>
+	<stdlib.h>
+	"bignum.h"
+
+1499601542 c:\users\acer\documents\pure c\bigintegerwith_c\bignum.h
+	"config.h"
+	"constant.h"
+
+1341767669 c:\users\acer\documents\pure c\bigintegerwith_c\config.h
+	<math.h>
+
+1499406862 source:c:\users\acer\documents\pure c\bigintegerwith_c\fft.c
+	"config.h"
+	"complex.h"
+	"fft.h"
+	"bignum.h"
+	"constant.h"
+
+1499394059 c:\users\acer\documents\pure c\bigintegerwith_c\complex.h
+	<math.h>
+
+1499403316 c:\users\acer\documents\pure c\bigintegerwith_c\fft.h
+	"complex.h"
+
+1499665302 c:\users\acer\documents\pure c\bigintegerwith_c\constant.h
+
+1499414058 source:c:\users\acer\documents\pure c\bigintegerwith_c\mul.c
+	<string.h>
+	"mul.h"
+	"fft.h"
+	"constant.h"
+
+1499414027 c:\users\acer\documents\pure c\bigintegerwith_c\mul.h
+	"bignum.h"
+
+1499411031 source:c:\users\acer\documents\pure c\bigintegerwith_c\karatsubamul.c
+
+1499409680 source:c:\users\acer\documents\pure c\bigintegerwith_c\sub.c
+
+1499411392 source:c:\users\acer\documents\pure c\bigintegerwith_c\sum.c
+
+1499408932 c:\users\acer\documents\pure c\bigintegerwith_c\sub.h
+
+1499410365 c:\users\acer\documents\pure c\bigintegerwith_c\sum.h
+
+1499414027 c:\users\acer\documents\pure c\bigintegerwith_c\karatsubamul.h
+	"sum.h"
+	"sub.h"
+
+1499596814 source:c:\users\acer\documents\pure c\bigintegerwith_c\slowdiv.c
+	"slowdiv.h"
+	"constant.h"
+	"mul.h"
+
+1499592202 c:\users\acer\documents\pure c\bigintegerwith_c\slowdiv.h
+	"bignum.h"
+
+1499595765 source:c:\users\acer\documents\pure c\bigintegerwith_c\addsub.c
+	"addsub.h"
+
+1499594426 c:\users\acer\documents\pure c\bigintegerwith_c\addsub.h
+	"bignum.h"
+

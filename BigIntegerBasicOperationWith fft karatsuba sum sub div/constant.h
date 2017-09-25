@@ -1,0 +1,13 @@
+#ifndef __CONSTANT_H_
+#define __CONSTANT_H_
+#define N_DIGIT 4096
+#define F_DIGIT 0
+#define DIVIDE_THRESHOLD 5
+#define LONG_MASK  0xffffffffL
+#define BURNIKEL_ZIEGLER_THRESHOLD 80
+#define BURNIKEL_ZIEGLER_OFFSET  40
+#define KNUTH_POW2_THRESH_LEN  6
+#define KNUTH_POW2_THRESH_ZEROS  3
+
+
+#endif
