@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1505315031 source:c:\users\acer\documents\pure c\bigintegerinonefiledigitbandwithnotoptimized\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<limits.h>
+	<ctype.h>
+	<stdarg.h>
+	<time.h>
+	<string.h>
+
